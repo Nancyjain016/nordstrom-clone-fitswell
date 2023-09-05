@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mens FITs WELL</title>
+    <link rel="stylesheet" href="style/header-footer.css" />
+    <link rel="stylesheet" href="style/mens.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+      <script src="script/mens.js" defer></script>
+      <script src="script/header-footer.js" defer></script>
+  </head>
+  <body>
+    <header></header>
+
+    <div id="activemen">
+      <div id="scroll">
+        <div>Product Type<span>&#43</span></div>
+        <div>Size<span>&#43</span></div>
+        <div>Color<span>&#43</span></div>
+        <div>Brand<span>&#43</span></div>
+        <div>Feature<span>&#43</span></div>
+        <div>Fit<span>&#43</span></div>
+        <div>Material<span>&#43</span></div>
+        <div>Price<span>&#43</span></div>
+        <div>Sale<span>&#43</span></div>
+        <div>Sleeve Length<span>&#43</span></div>
+        <div>Sports League<span>&#43</span></div>
+        <div>Sports Team<span>&#43</span></div>
+        <div>Style<span>&#43</span></div>
+      </div>
+
+      <div>
+        <h1>Men's All Activewear</h1>
+        <div id="sortfilter">
+          <div id="sort">
+            <select onchange="sorting()" id="sorting">
+              <option value="">Sort By Price</option>
+              <option value="asc">Low to High</option>
+              <option value="desc">High to Low</option>
+            </select>
+          </div>
+          <div id="filter">
+            <select onchange="filtering()" id="filtering">
+              <option value="">Filter by category</option>
+              <option value="Zella">Zella</option>
+              <option value="Stance">Stance</option>
+              <option value="Nike">Nike</option>
+            </select>
+          </div>
+        </div>
+        <div id="container"></div>
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
+
+</html>

@@ -1,0 +1,369 @@
+section {
+  margin: 50px auto;
+  width: 95%;
+}
+#midline {
+  text-align: center;
+}
+#midline img {
+  margin: auto;
+  width: 95%;
+  height: 14px;
+}
+#landing1 {
+  text-align: center;
+  position: relative;
+  color: white;
+}
+#landing1 img {
+  width: 100%;
+}
+#landing1 > div:last-child {
+  width: 40%;
+  position: absolute;
+  z-index: 3;
+  top: 180px;
+  right: 170px;
+}
+#landing1 div:last-child div {
+  display: flex;
+  justify-content: space-evenly;
+}
+#landing1 p {
+  font-size: 14px;
+  margin: 5px auto;
+}
+#landing1 a {
+  font-style: 14px;
+  color: white;
+  text-decoration: none;
+  margin: 5px auto;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+#merry {
+  position: relative;
+}
+#merry div:first-child img {
+  width: 100%;
+}
+#merry div:last-child {
+  line-height: 1.5rem;
+  position: absolute;
+  z-index: 1;
+  left: 30%;
+  bottom: 5%;
+}
+#merry p {
+  font-size: 20px;
+  text-align: center;
+}
+#merry span {
+  padding: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0 10px;
+  cursor: pointer;
+}
+#merry span:hover {
+  opacity: 0.8;
+}
+#merry div p:last-child {
+  margin-top: 24px;
+}
+#gifts img {
+  width: 100%;
+}
+#gifts div {
+  display: flex;
+  justify-content: space-around;
+}
+#thread {
+  text-align: center;
+}
+#thread > div {
+  display: flex;
+  justify-content: space-between;
+}
+#thread > div > div {
+  text-align: left;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+#thread > div > div > img {
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+#thread > div > div > img:hover {
+  transform: scale(1.02);
+  transition: 0.5s ease-in-out;
+}
+#thread > h1 {
+  margin-bottom: 10px;
+}
+#thread > p {
+  margin: 6px;
+}
+#thread > p:nth-child(4) {
+  margin: 6px;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+#thread > div > div > p {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  margin: 10px auto;
+  line-height: 1.5rem;
+}
+#thread > div > div > a {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  text-decoration: underline;
+}
+#service {
+  text-align: center;
+}
+#service > div {
+  display: flex;
+  justify-content: space-between;
+}
+#service > div > div {
+  text-align: left;
+  padding-top: 10px;
+  margin-top: 20px;
+  width: 25%;
+}
+#service > div > div > img {
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+#service > div > div > img:hover {
+  transform: scale(1.02);
+  transition: 0.5s ease-in-out;
+}
+#service > h1 {
+  margin-bottom: 10px;
+}
+#service > p {
+  margin: 6px;
+}
+#service > p:nth-child(4) {
+  margin: 6px;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+#service > div > div > h2 {
+  margin: 10px 0;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+#service > div > div > p {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  margin: 10px auto;
+  line-height: 1.5rem;
+  margin-right: 40px;
+}
+#service > div > div > a {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  text-decoration: underline;
+}
+#trending {
+  position: relative;
+}
+#trending #slides {
+  display: none;
+}
+#trending #slides img {
+  width: 90%;
+  transition: 0.5s ease-in-out;
+}
+#trending #slides img:hover {
+  transform: scale(1.02);
+  transition: 0.5s ease-in-out;
+}
+#trending #slides div {
+  width: 30%;
+  position: absolute;
+  z-index: 1;
+  right: 100px;
+  bottom: 50%;
+}
+#trending h2 {
+  font-size: 20px;
+  margin: 6px auto;
+}
+#trending a {
+  border: 1px solid black;
+  margin: 10px auto;
+}
+#trending p {
+  margin: 10px auto;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  bottom: 50%;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.next {
+  right: 0;
+  border-radius: 50%;
+}
+#category > div {
+  display: flex;
+  justify-content: space-between;
+}
+#category > div > div {
+  text-align: center;
+}
+#category > div > div > img {
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+#category > div > div > img:hover {
+  transform: scale(1.02);
+  transition: 0.5s ease-in-out;
+}
+#category > div > div > h2 {
+  margin: 10px auto;
+  font-size: 18px;
+  opacity: 0.9;
+}
+#touch {
+  position: relative;
+}
+#touch div:first-child img {
+  width: 100%;
+}
+#touch div:last-child {
+  line-height: 1.5rem;
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  bottom: 20%;
+}
+#touch h2 {
+  font-size: 24px;
+}
+#touch p {
+  font-size: 16px;
+  margin-top: 12px;
+}
+.popup-screen {
+  backdrop-filter: blur(20px);
+  width: 100%;
+  z-index: 999999;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s ease;
+}
+.popup-screen.active {
+  visibility: visible;
+  opacity: 1;
+}
+.popup-box {
+  position: relative;
+  background-color: white;
+  top: 30%;
+  left: 35%;
+  max-width: 350px;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px 0;
+  transform: scale(0);
+  transition: transform 0.5s ease;
+}
+.popup-screen.active .popup-box {
+  transform: scale(1);
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 20px;
+}
+.popup-box h1 {
+  margin: 4px 0;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.popup-box p {
+  margin-bottom: 20px;
+}
+.popup-box p a,
+.popup-box ul li a {
+  text-decoration: underline;
+}
+.popup-box p:nth-child(4) {
+  margin: 20px 0;
+}
+.popup-box ul li {
+  list-style: initial;
+  margin-left: 30px;
+}
+
+@media All and (min-width: 768px) and (max-width: 1048px) {
+  #landing1 > div:last-child {
+    width: 40%;
+    top: 130px;
+    right: 130px;
+  }
+  #trending #slides div {
+    width: 30%;
+    right: 70px;
+    bottom: 35%;
+  }
+  * {
+    font-size: 12px;
+  }
+}
+@media All and (min-width: 540px) and (max-width: 768px) {
+  #landing1 > div:last-child {
+    width: 50%;
+    top: 80px;
+    right: 70px;
+  }
+  #trending #slides div {
+    width: 30%;
+    right: 50px;
+    bottom: 25%;
+  }
+  * {
+    font-size: 10px;
+  }
+}
+@media All and (min-width: 360px) and (max-width: 540px) {
+  #landing1 > div:last-child {
+    width: 60%;
+    top: 50px;
+    right: 4px;
+  }
+  #trending #slides div {
+    width: 30%;
+    right: 30px;
+    bottom: 15%;
+  }
+  * {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,119 @@
+
+h1 {
+    font-size: 30px;
+    margin: 20px auto;
+    text-align: center;
+}
+#sort {
+    text-align: right;
+}
+#sorting {
+    font-size: 20px;
+    padding: 6px 10px;
+    width: 400px;
+    margin: 20px auto;
+    margin-left: 20px;
+}
+#filtering {
+    font-size: 20px;
+    padding: 6px 10px;
+    width: 400px;
+    margin: 20px auto;
+    margin-right: 20px;
+}
+#container {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+    margin: auto 30px;
+}
+#container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 0 3px 0;
+    text-align: center;
+    align-items: center;
+}
+#container div img{
+    width: 70%;
+}
+#container div p {
+    margin: 10px 20px;
+    font-size: 16px;
+}
+#container div h2 {
+    margin: 10px 20px;
+    font-size: 20px;
+}
+#container div button {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(44, 5, 5);
+    color: white;
+    border-radius: 3px;
+}
+#container div button:hover {
+    background-color: #e30e0e;
+}
+
+#sortfilter {
+    display: flex;
+    justify-content: space-between;
+}
+#activemen {
+    display: flex;
+}
+#scroll {
+    display: flex;
+    max-height: calc(100vh - 40px);
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 40%;
+    position: sticky;
+    top: 20px;
+}
+#scroll div {
+    padding: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+#scroll div span {
+    font-size: 24px;
+    opacity: 0.8;
+}
+@media All and (min-width: 768px) and (max-width: 1048px) {
+    #container {
+        grid-template-columns: repeat(3,1fr);
+        gap: 24px;
+    }
+    * {
+        font-size: 12px;
+    }
+}
+@media All and (min-width: 540px) and (max-width: 768px) {
+    #container {
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+    }
+    * {
+        font-size: 10px;
+    }
+}
+@media All and (min-width: 360px) and (max-width: 540px) {
+    #container {
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    * {
+        font-size: 8px;
+    }
+
+}
